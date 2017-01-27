@@ -1,8 +1,15 @@
+h1 {
+  color: #ad6122;
+}
+
+h2 {
+   color: #e0a16d;
+}
+
 .intro {
   text-align: center;
   background-color: #c5d140;
   width: 70%;
-  font-family: cursive;
   color: #40d1b6;
   border: 5px solid #40d1b6;
   padding: 20px;
@@ -12,11 +19,22 @@
 .intro p {
   text-indent: 25px;
   font-size: 18px;
-  color: #ffffff;
+  color: #634412;
 }
 
 .intro ul li {
   text-align: left;
   margin-left: 420px;
   color: #0e36f9;
+}
+
+.intro span {
+  color: #f92d00;
+}
+
+body {
+  text-align: center;
+  font-family: cursive;
+  width: 100%;
+  background-color: #81ad22;
 }
