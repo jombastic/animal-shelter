@@ -41,6 +41,11 @@ h2 {
   float: left;
 }
 
+.column img {
+  width: 304px;
+  height: 304px;
+}
+
 body {
   text-align: center;
   font-family: cursive;
