@@ -32,6 +32,15 @@ h2 {
   color: #f92d00;
 }
 
+.column {
+  margin: 10px;
+  width: 30%;
+  height: 600px;
+  text-align: center;
+  border: 5px solid #e0a16d;
+  float: left;
+}
+
 body {
   text-align: center;
   font-family: cursive;
