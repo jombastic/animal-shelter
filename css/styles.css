@@ -10,7 +10,7 @@ h2 {
   text-align: center;
   background-color: #c5d140;
   width: 70%;
-  color: #40d1b6;
+  color: #7a9b33;
   border: 5px solid #40d1b6;
   padding: 20px;
   margin: auto;
@@ -19,13 +19,12 @@ h2 {
 .intro p {
   text-indent: 25px;
   font-size: 18px;
-  color: #634412;
+  color: #339b5d;
 }
 
 .intro ul li {
   text-align: left;
   margin-left: 420px;
-  color: #0e36f9;
 }
 
 .intro span {
@@ -52,7 +51,7 @@ h2 {
 .column p {
   margin: 10px;
   padding-top: 20px;
-  color: #d8e06d;
+  color: #4286f45;
 }
 
 .column h3 {
