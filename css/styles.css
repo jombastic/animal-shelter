@@ -17,9 +17,8 @@ h2 {
 }
 
 .intro p {
-  text-indent: 25px;
-  font-size: 18px;
   color: #339b5d;
+  font-size: 18px;
 }
 
 .intro ul li {
@@ -51,7 +50,8 @@ h2 {
 .column p {
   margin: 10px;
   padding-top: 10px;
-  color: #4286f45;
+  color: #455060;
+  font-size: 16px;
 }
 
 .column h3 {
@@ -74,13 +74,15 @@ body {
 }
 
 @media screen and (min-width: 700px) and (max-width: 1000px) {
-
   .column {
     float: left;
     margin: 5px;
     width: 45%;
     text-align: center;
   }
+
+  .column
+
   .intro {
     width: 85%;
     color: #7a9b33;
@@ -88,13 +90,49 @@ body {
     padding: 20px;
     margin: 20px;
   }
+
   .intro ul li {
     margin-left: auto;
+  }
+
+  body {
+    background-color: #597db7;
   }
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
   body {
     background-color: #87aeed;
+  }
+
+  .column {
+    float: left;
+    margin: 0px;
+    margin-top: 5px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .column img {
+    width: 260px;
+    height: 260px;
+    padding-top: 20px;
+  }
+
+  .intro {
+    width: 78%;
+    color: #7a9b33;
+    border: 5px solid #40d1b6;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .intro ul li {
+    margin-left: auto;
   }
 }
