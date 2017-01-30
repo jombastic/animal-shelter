@@ -17,13 +17,13 @@ h2 {
 }
 
 .intro p {
+  clear: both;
   color: #339b5d;
   font-size: 18px;
 }
 
-.intro ul li {
-  text-align: left;
-  margin-left: 420px;
+.intro ul {
+  display:inline-block;
 }
 
 .intro span {
@@ -91,10 +91,6 @@ body {
     margin: 20px;
   }
 
-  .intro ul li {
-    margin-left: auto;
-  }
-
   body {
     background-color: #597db7;
   }
@@ -130,9 +126,5 @@ body {
 
   .intro p {
     font-size: 16px;
-  }
-
-  .intro ul li {
-    margin-left: auto;
   }
 }
