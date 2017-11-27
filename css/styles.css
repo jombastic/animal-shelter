@@ -33,7 +33,7 @@ body {
 
 @media screen and (max-width: 1000px) and (min-width: 700px) {
   body {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .column {
@@ -41,7 +41,13 @@ body {
     margin: 0 0 20px 20px;
   }
 
+  .column img {
+    width: 500px;
+    height: 500px
+    max-width: 80%;
+  }
+
   .column p {
-    margin: 5% 5px 5% 5px;
+    margin: 5% 15px 5% 15px;
   }
 }
