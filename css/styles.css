@@ -43,8 +43,8 @@ body {
 
   .column img {
     width: 500px;
-    height: 500px
     max-width: 80%;
+    height: 500px
   }
 
   .column p {
