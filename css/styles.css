@@ -59,7 +59,8 @@ body {
   }
 
   .column img {
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    max-width: 90%;
+    height: 450px;
   }
 }
